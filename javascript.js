@@ -47,10 +47,27 @@ function abcNumeros(){
     }
 }
 
+function retangulo(){
+    var numero6 =parseInt(document.getElementById("num10").value)
+    var numero7 =parseInt(document.getElementById("num11").value)
+    var resultado = numero6 * numero7
+    var teste = document.getElementById("resultadoRetangulo")
+    teste.innerHTML=resultado
+
+}
+
+function salario(){
+    var numero15 =parseInt(document.getElementById("num15").value)
+    var numero16 =parseInt(document.getElementById("num16").value)
+    var resultado = numero15*(numero16/100)+numero15
+    var teste = document.getElementById("resultadosalario")
+    teste.innerHTML=resultado
+}
+
 function programaNum(){
-    var numero6 = parseInt(document.getElementById("num10").value);
-    var numero6alterado = parseInt(numero6)
-    var resultado = numero6alterado
+    var numero8 = parseInt(document.getElementById("num12").value)
+    var numero8alterado = parseInt(numero8)
+    var resultado = numero8alterado
     if(resultado>10){
         alert("É maior que 10: ")
     }
