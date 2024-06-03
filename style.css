@@ -1,0 +1,55 @@
+.container{
+    border: 1px black solid;
+    height: 100vh;
+    background-color: red;
+}
+
+#nome{
+    border: 1px black solid;
+    height: 10%;
+    text-align: center;
+}
+
+#item1{
+    border: 1px black solid;
+    height: 47%;
+    display: flex;
+}
+
+#item2{
+    border: 1px black solid;
+    height: 47%;
+    display: flex;
+}
+
+#elemento1{
+    border: solid 1px black;
+    width: 33.33%;
+}
+
+#elemento2{
+    border: solid 1px black;
+    width: 33.33%;
+}
+
+#elemento3{
+    border: solid 1px black;
+    width: 33.33%;
+}
+
+#elemento4{
+    border: solid 1px black;
+    width: 33.33%;
+}
+
+#elemento5{
+    border: solid 1px black;
+    width: 33.33%;
+}
+
+#elemento6{
+    border: solid 1px black;
+    width: 33.33%;
+}
+
+

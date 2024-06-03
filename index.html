@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>Bruno</h1>
+    <div class="container">
+     <div id="nome"><h1>Nome: Bruno José Gomes</h1></div>
+ 
+     <div id="item1">
+        <div id="elemento1">
+            <label for="">Calculadora-divisão</label><br>
+            <label for="">Digite um numero </label><br>
+            <input type="number" id="num1"><br>
+            <label for="">Digite outro numero </label><br>
+            <input type="number" id="num2">
+            <button type="submit" onclick="subtrairdivisao()">divisão</button>
+            <div id="resultadoDivisao">Resultado</div>
+        </div>
+
+        <div id="elemento2">
+            <label for="">Calculadora da nota</label><br>
+            <label for="">Digite sua primeira nota </label><br>
+            <input type="number" id="num3"><br>
+            <label for="">Digite sua segunda nota </label><br>
+            <input type="number" id="num4"><br>
+            <label for="">Digite sua terceira nota </label><br>
+            <input type="number" id="num5"><br>
+            <label for="">Digite sua quarta nota </label><br>
+            <input type="number" id="num6"><br>
+            <button type="submit" onclick="notanumeros()">Calcular</button>
+            <div id="resultadoNota">Sua nota é</div>
+        </div>
+        <div id="elemento3">
+            <label for="">Digite o A </label><br>
+            <input type="number" id="num7"><br>
+            <label for="">Digite o B </label><br>
+            <input type="number" id="num8"><br>
+            <label for="">Digite o C </label><br>
+            <input type="number" id="num9"><br>
+            <button type="submit" value="Calcular" onclick="abcNumeros()">Calcular</button>
+        </div>
+     </div>
+
+     <div id="item2">
+        <div id="elemento4"></div>
+        <div id="elemento5"></div>
+        <div id="elemento6">
+            <label for="">Digite um numero </label><br>
+            <input type="number" id="num10"><br>
+            <button type="submit" onclick="programaNum()">Ver</button>
+            <div id="Numero">Resultado</div>
+        </div>
+     </div>
+
+    </div>
 </body>
 </html>
